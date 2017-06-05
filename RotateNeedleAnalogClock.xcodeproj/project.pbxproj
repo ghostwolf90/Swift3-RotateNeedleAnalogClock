@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7FF212FD1EE53D35001191A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF212FC1EE53D35001191A3 /* AppDelegate.swift */; };
+		7FF212FF1EE53D35001191A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF212FE1EE53D35001191A3 /* ViewController.swift */; };
+		7FF213021EE53D35001191A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FF213001EE53D35001191A3 /* Main.storyboard */; };
+		7FF213041EE53D35001191A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FF213031EE53D35001191A3 /* Assets.xcassets */; };
+		7FF213071EE53D35001191A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FF213051EE53D35001191A3 /* LaunchScreen.storyboard */; };
+		7FF213121EE53D35001191A3 /* RotateNeedleAnalogClockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF213111EE53D35001191A3 /* RotateNeedleAnalogClockTests.swift */; };
+		7FF2131D1EE53D35001191A3 /* RotateNeedleAnalogClockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF2131C1EE53D35001191A3 /* RotateNeedleAnalogClockUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7FF2130E1EE53D35001191A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FF212F11EE53D35001191A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FF212F81EE53D35001191A3;
+			remoteInfo = RotateNeedleAnalogClock;
+		};
+		7FF213191EE53D35001191A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FF212F11EE53D35001191A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FF212F81EE53D35001191A3;
+			remoteInfo = RotateNeedleAnalogClock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7FF212F91EE53D35001191A3 /* RotateNeedleAnalogClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RotateNeedleAnalogClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FF212FC1EE53D35001191A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7FF212FE1EE53D35001191A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7FF213011EE53D35001191A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7FF213031EE53D35001191A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7FF213061EE53D35001191A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7FF213081EE53D35001191A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FF2130D1EE53D35001191A3 /* RotateNeedleAnalogClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RotateNeedleAnalogClockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FF213111EE53D35001191A3 /* RotateNeedleAnalogClockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateNeedleAnalogClockTests.swift; sourceTree = "<group>"; };
+		7FF213131EE53D35001191A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FF213181EE53D35001191A3 /* RotateNeedleAnalogClockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RotateNeedleAnalogClockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FF2131C1EE53D35001191A3 /* RotateNeedleAnalogClockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateNeedleAnalogClockUITests.swift; sourceTree = "<group>"; };
+		7FF2131E1EE53D35001191A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FF212F61EE53D35001191A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FF2130A1EE53D35001191A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FF213151EE53D35001191A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FF212F01EE53D35001191A3 = {
+			isa = PBXGroup;
+			children = (
+				7FF212FB1EE53D35001191A3 /* RotateNeedleAnalogClock */,
+				7FF213101EE53D35001191A3 /* RotateNeedleAnalogClockTests */,
+				7FF2131B1EE53D35001191A3 /* RotateNeedleAnalogClockUITests */,
+				7FF212FA1EE53D35001191A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7FF212FA1EE53D35001191A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FF212F91EE53D35001191A3 /* RotateNeedleAnalogClock.app */,
+				7FF2130D1EE53D35001191A3 /* RotateNeedleAnalogClockTests.xctest */,
+				7FF213181EE53D35001191A3 /* RotateNeedleAnalogClockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FF212FB1EE53D35001191A3 /* RotateNeedleAnalogClock */ = {
+			isa = PBXGroup;
+			children = (
+				7FF212FC1EE53D35001191A3 /* AppDelegate.swift */,
+				7FF212FE1EE53D35001191A3 /* ViewController.swift */,
+				7FF213001EE53D35001191A3 /* Main.storyboard */,
+				7FF213031EE53D35001191A3 /* Assets.xcassets */,
+				7FF213051EE53D35001191A3 /* LaunchScreen.storyboard */,
+				7FF213081EE53D35001191A3 /* Info.plist */,
+			);
+			path = RotateNeedleAnalogClock;
+			sourceTree = "<group>";
+		};
+		7FF213101EE53D35001191A3 /* RotateNeedleAnalogClockTests */ = {
+			isa = PBXGroup;
+			children = (
+				7FF213111EE53D35001191A3 /* RotateNeedleAnalogClockTests.swift */,
+				7FF213131EE53D35001191A3 /* Info.plist */,
+			);
+			path = RotateNeedleAnalogClockTests;
+			sourceTree = "<group>";
+		};
+		7FF2131B1EE53D35001191A3 /* RotateNeedleAnalogClockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7FF2131C1EE53D35001191A3 /* RotateNeedleAnalogClockUITests.swift */,
+				7FF2131E1EE53D35001191A3 /* Info.plist */,
+			);
+			path = RotateNeedleAnalogClockUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FF212F81EE53D35001191A3 /* RotateNeedleAnalogClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FF213211EE53D35001191A3 /* Build configuration list for PBXNativeTarget "RotateNeedleAnalogClock" */;
+			buildPhases = (
+				7FF212F51EE53D35001191A3 /* Sources */,
+				7FF212F61EE53D35001191A3 /* Frameworks */,
+				7FF212F71EE53D35001191A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RotateNeedleAnalogClock;
+			productName = RotateNeedleAnalogClock;
+			productReference = 7FF212F91EE53D35001191A3 /* RotateNeedleAnalogClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7FF2130C1EE53D35001191A3 /* RotateNeedleAnalogClockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FF213241EE53D35001191A3 /* Build configuration list for PBXNativeTarget "RotateNeedleAnalogClockTests" */;
+			buildPhases = (
+				7FF213091EE53D35001191A3 /* Sources */,
+				7FF2130A1EE53D35001191A3 /* Frameworks */,
+				7FF2130B1EE53D35001191A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FF2130F1EE53D35001191A3 /* PBXTargetDependency */,
+			);
+			name = RotateNeedleAnalogClockTests;
+			productName = RotateNeedleAnalogClockTests;
+			productReference = 7FF2130D1EE53D35001191A3 /* RotateNeedleAnalogClockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7FF213171EE53D35001191A3 /* RotateNeedleAnalogClockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FF213271EE53D35001191A3 /* Build configuration list for PBXNativeTarget "RotateNeedleAnalogClockUITests" */;
+			buildPhases = (
+				7FF213141EE53D35001191A3 /* Sources */,
+				7FF213151EE53D35001191A3 /* Frameworks */,
+				7FF213161EE53D35001191A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FF2131A1EE53D35001191A3 /* PBXTargetDependency */,
+			);
+			name = RotateNeedleAnalogClockUITests;
+			productName = RotateNeedleAnalogClockUITests;
+			productReference = 7FF213181EE53D35001191A3 /* RotateNeedleAnalogClockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FF212F11EE53D35001191A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "ryosuke-hujisawa";
+				TargetAttributes = {
+					7FF212F81EE53D35001191A3 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 5N32D93Z87;
+						ProvisioningStyle = Automatic;
+					};
+					7FF2130C1EE53D35001191A3 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 5N32D93Z87;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7FF212F81EE53D35001191A3;
+					};
+					7FF213171EE53D35001191A3 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 5N32D93Z87;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7FF212F81EE53D35001191A3;
+					};
+				};
+			};
+			buildConfigurationList = 7FF212F41EE53D35001191A3 /* Build configuration list for PBXProject "RotateNeedleAnalogClock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7FF212F01EE53D35001191A3;
+			productRefGroup = 7FF212FA1EE53D35001191A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FF212F81EE53D35001191A3 /* RotateNeedleAnalogClock */,
+				7FF2130C1EE53D35001191A3 /* RotateNeedleAnalogClockTests */,
+				7FF213171EE53D35001191A3 /* RotateNeedleAnalogClockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FF212F71EE53D35001191A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FF213071EE53D35001191A3 /* LaunchScreen.storyboard in Resources */,
+				7FF213041EE53D35001191A3 /* Assets.xcassets in Resources */,
+				7FF213021EE53D35001191A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FF2130B1EE53D35001191A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FF213161EE53D35001191A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FF212F51EE53D35001191A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FF212FF1EE53D35001191A3 /* ViewController.swift in Sources */,
+				7FF212FD1EE53D35001191A3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FF213091EE53D35001191A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FF213121EE53D35001191A3 /* RotateNeedleAnalogClockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FF213141EE53D35001191A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FF2131D1EE53D35001191A3 /* RotateNeedleAnalogClockUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7FF2130F1EE53D35001191A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FF212F81EE53D35001191A3 /* RotateNeedleAnalogClock */;
+			targetProxy = 7FF2130E1EE53D35001191A3 /* PBXContainerItemProxy */;
+		};
+		7FF2131A1EE53D35001191A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FF212F81EE53D35001191A3 /* RotateNeedleAnalogClock */;
+			targetProxy = 7FF213191EE53D35001191A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7FF213001EE53D35001191A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FF213011EE53D35001191A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7FF213051EE53D35001191A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FF213061EE53D35001191A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7FF2131F1EE53D35001191A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7FF213201EE53D35001191A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FF213221EE53D35001191A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5N32D93Z87;
+				INFOPLIST_FILE = RotateNeedleAnalogClock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WeatherNotification.RotateNeedleAnalogClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7FF213231EE53D35001191A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5N32D93Z87;
+				INFOPLIST_FILE = RotateNeedleAnalogClock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WeatherNotification.RotateNeedleAnalogClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		7FF213251EE53D35001191A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5N32D93Z87;
+				INFOPLIST_FILE = RotateNeedleAnalogClockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WeatherNotification.RotateNeedleAnalogClockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RotateNeedleAnalogClock.app/RotateNeedleAnalogClock";
+			};
+			name = Debug;
+		};
+		7FF213261EE53D35001191A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5N32D93Z87;
+				INFOPLIST_FILE = RotateNeedleAnalogClockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WeatherNotification.RotateNeedleAnalogClockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RotateNeedleAnalogClock.app/RotateNeedleAnalogClock";
+			};
+			name = Release;
+		};
+		7FF213281EE53D35001191A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 5N32D93Z87;
+				INFOPLIST_FILE = RotateNeedleAnalogClockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WeatherNotification.RotateNeedleAnalogClockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RotateNeedleAnalogClock;
+			};
+			name = Debug;
+		};
+		7FF213291EE53D35001191A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 5N32D93Z87;
+				INFOPLIST_FILE = RotateNeedleAnalogClockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WeatherNotification.RotateNeedleAnalogClockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RotateNeedleAnalogClock;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FF212F41EE53D35001191A3 /* Build configuration list for PBXProject "RotateNeedleAnalogClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FF2131F1EE53D35001191A3 /* Debug */,
+				7FF213201EE53D35001191A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FF213211EE53D35001191A3 /* Build configuration list for PBXNativeTarget "RotateNeedleAnalogClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FF213221EE53D35001191A3 /* Debug */,
+				7FF213231EE53D35001191A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7FF213241EE53D35001191A3 /* Build configuration list for PBXNativeTarget "RotateNeedleAnalogClockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FF213251EE53D35001191A3 /* Debug */,
+				7FF213261EE53D35001191A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7FF213271EE53D35001191A3 /* Build configuration list for PBXNativeTarget "RotateNeedleAnalogClockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FF213281EE53D35001191A3 /* Debug */,
+				7FF213291EE53D35001191A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FF212F11EE53D35001191A3 /* Project object */;
+}
