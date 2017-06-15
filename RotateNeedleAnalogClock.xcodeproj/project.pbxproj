@@ -193,7 +193,7 @@
 				TargetAttributes = {
 					7FF212F81EE53D35001191A3 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = 5N32D93Z87;
+						DevelopmentTeam = 4VS4GFB76H;
 						ProvisioningStyle = Automatic;
 					};
 					7FF2130C1EE53D35001191A3 = {
@@ -415,7 +415,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 5N32D93Z87;
+				DEVELOPMENT_TEAM = 4VS4GFB76H;
 				INFOPLIST_FILE = RotateNeedleAnalogClock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = WeatherNotification.RotateNeedleAnalogClock;
@@ -428,7 +428,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 5N32D93Z87;
+				DEVELOPMENT_TEAM = 4VS4GFB76H;
 				INFOPLIST_FILE = RotateNeedleAnalogClock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = WeatherNotification.RotateNeedleAnalogClock;
@@ -514,6 +514,7 @@
 				7FF213231EE53D35001191A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7FF213241EE53D35001191A3 /* Build configuration list for PBXNativeTarget "RotateNeedleAnalogClockTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +523,7 @@
 				7FF213261EE53D35001191A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7FF213271EE53D35001191A3 /* Build configuration list for PBXNativeTarget "RotateNeedleAnalogClockUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +532,7 @@
 				7FF213291EE53D35001191A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

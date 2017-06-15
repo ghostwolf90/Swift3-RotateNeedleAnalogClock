@@ -15,8 +15,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
-        
         // Screen Size の取得
         let screenWidth:CGFloat = view.frame.size.width
         let screenHeight:CGFloat = view.frame.size.height
@@ -62,10 +60,9 @@ class ViewController: UIViewController {
         let MinuteBox = UIView(frame: CGRect(x: 0, y: 0, width: 20, height: 90))
         MinuteBox.backgroundColor = UIColor.clear
         MinuteView.addSubview(MinuteBox)
-  
+        update()
     }
-    
-    
+
     
     //　ドラッグ時に呼ばれる
     override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
@@ -87,7 +84,30 @@ class ViewController: UIViewController {
             MinuteTimehourImage.transform = CGAffineTransform(rotationAngle: CGFloat(angle))
         }
     }
+    
+    func update() {
         
+        let date = Date()
+        let calendar = Calendar.current
+        let hour = calendar.component(.hour, from: date)
+        let minutes = calendar.component(.minute, from: date)
+        let seconds = calendar.component(.second, from: date)
+        let hDeg = (hour % 12) * (360 / 12);
+        let mDeg = minutes * (360 / 60);
+        let sDeg = seconds * (360 / 60)
+        print(hDeg)
+        print(mDeg)
+        print(sDeg)
+        
+        //secondsImage.transform = CGAffineTransform(rotationAngle: CGFloat(M_PI * Double(sDeg) / 180.0))
+        
+        MinuteView.transform = CGAffineTransform(rotationAngle: CGFloat(Double.pi * Double(mDeg) / 180.0))
+        MinuteTimehourImage.transform = CGAffineTransform(rotationAngle: CGFloat(Double.pi * Double(mDeg) / 180.0))
+        
+        HourView.transform = CGAffineTransform(rotationAngle: CGFloat(Double.pi * Double(hDeg) / 180.0))
+        ClockTimehourImage.transform = CGAffineTransform(rotationAngle: CGFloat(Double.pi * Double(hDeg) / 180.0))
+    }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
