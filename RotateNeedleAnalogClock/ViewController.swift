@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     
     var HourView: UIView!
     var MinuteView: UIView!
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -68,24 +68,37 @@ class ViewController: UIViewController {
         MinuteView.addSubview(MinuteBox)
         update()
     }
-    
+
     
     //　ドラッグ時に呼ばれる
     override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
-        
+ 
         let touch = touches.first!
         if touch.view === HourView.subviews[0] {
             let position = touch.location(in: self.view)
             let target = HourView.center
             let angle = atan2f(Float(target.y-position.y), Float(target.x-position.x)) - Float(Double.pi) / Float(2)
-            
+
             let h: Float = (angle / 6.28319) * 12.0
-            if h < 0 { curHour = Int( h - 1 ) + 12 }
-            else { curHour = Int( h ) }
-            print("angle=\(angle) hour=\(curHour) minute=\(curMinutes)")
+            var h2: Float = h
+            if h < 0 { curHour = Int( h - 1 ) + 12; h2 = h + 11.9905 }
+            else { curHour = Int( h + 0.0005) }
             
+            print("angle=\(angle) hour=\(curHour) minute=\(curMinutes) h=\(h) h2=\(h2) \(h2 - Float(curHour)) ")
+
             HourView.transform = CGAffineTransform(rotationAngle: CGFloat(angle))
             ClockTimehourImage.transform = CGAffineTransform(rotationAngle: CGFloat(angle))
+            
+            let m: Float = h2 - Float(curHour)
+            curMinutes = Int( m * 60 )
+            
+            let mDeg = curMinutes * (360 / 60);
+            
+            MinuteView.transform = CGAffineTransform(rotationAngle: CGFloat(Double.pi * Double(mDeg) / 180.0))
+            MinuteTimehourImage.transform = CGAffineTransform(rotationAngle: CGFloat(Double.pi * Double(mDeg) / 180.0))
+            
+            labTime.text = String(format: "目前時間: %02d:%02d", curHour, curMinutes)
+            
         }
         
         if touch.view === MinuteView.subviews[0] {
@@ -96,7 +109,7 @@ class ViewController: UIViewController {
             
             let angle = atan2f(y, x) - Float(Double.pi) / Float(2)
             // angle range: 1.5708 ~ -4.71239
-            
+        
             let m: Float = (angle / 6.28319) * 60.0
             if m < 0 { curMinutes = Int( m - 1 ) + 60 }
             else { curMinutes = Int( m ) }
@@ -111,10 +124,12 @@ class ViewController: UIViewController {
             } else {
                 oldMinutes = curMinutes
             }
-            labTime.text = "目前時間 \(curHour):\(curMinutes)"
+            
+            labTime.text = String(format: "目前時間: %02d:%02d", curHour, curMinutes)
+            
             MinuteView.transform = CGAffineTransform(rotationAngle: CGFloat(angle))
             MinuteTimehourImage.transform = CGAffineTransform(rotationAngle: CGFloat(angle))
-            
+
             var mm = curHour * 60 + curMinutes
             if mm > 195 { mm -= 720 }
             let hourAngle = Float(mm) / 720.0 * 6.28319
@@ -122,6 +137,8 @@ class ViewController: UIViewController {
             
             HourView.transform = CGAffineTransform(rotationAngle: CGFloat(hourAngle))
             ClockTimehourImage.transform = CGAffineTransform(rotationAngle: CGFloat(hourAngle))
+            
+            
         }
     }
     
@@ -151,11 +168,11 @@ class ViewController: UIViewController {
         ClockTimehourImage.transform = CGAffineTransform(rotationAngle: CGFloat(Double.pi * Double(hDeg) / 180.0))
     }
     
-    
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-    
+
+
 }
